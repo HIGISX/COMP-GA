@@ -10,9 +10,8 @@ This study addresses the multi-size bank location problem by incorporating compe
 ## Repository Structure
 
 - `data/`: Contains datasets used in the study.
-- `src/`: Source code for the genetic algorithm and optimization model.
+- `code/`: Source code for the genetic algorithm and optimization model.
 - `results/`: Output files and figures generated from the experiments.
-- `docs/`: Documentation and supplementary materials.
 
 ## Installation
 
@@ -22,5 +21,12 @@ To run the code, you need to have Python and the following packages installed:
 - pandas
 - matplotlib
 - scipy
+- rasterio
+- geopy.distance
+- pyproj import Geod
+- json
+- math
+- random
+- tqdm
 
-You can install the required packages using pip:
+
